@@ -13,5 +13,3 @@ cond1 <- function(x1, x2){
 cond2 <- function(x1, x2){
        jpmf(x1, x2) / mpmf1(x1)
    }
-cond1(2, 2)
-cond2(2, 2)
