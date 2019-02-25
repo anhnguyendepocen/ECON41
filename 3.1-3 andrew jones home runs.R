@@ -22,5 +22,5 @@ run_frame %>% summarise(mean_distance = mean(runs), variance = var(runs))
 run_frame %>% ggplot(aes(runs)) + geom_histogram(aes(y = stat(count / sum(count))), color = 'black', fill = 'blue', binwidth = 10) + ds_theme_set() + scale_x_continuous(breaks = seq(340, 450, 10)) + labs(x = 'Home run hit distance (in groups of 10 feet)', y = 'Proportion of runs')
 
 # Boxplot of home run distances
-run_frame %>% ggplot(aes(y = runs)) + geom_boxplot(fill = 'green') + ds_theme_set() + theme(axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank()) + labs(y = 'Home run hit distance')
+carbon_frame %>% ggplot(aes(y = concentration)) + geom_boxplot(fill = 'green') + ds_theme_set() + theme(axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank()) + labs(y = 'Concentration') + scale_y_continuous(breaks = seq(128, 135, 1))
 
