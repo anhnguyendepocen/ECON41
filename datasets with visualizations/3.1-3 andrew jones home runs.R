@@ -11,6 +11,9 @@ home_runs <- c(382, 340, 418, 390, 393, 380,
 
 run_frame <- data.frame(runs = home_runs)
 
+# Table of nail weights divided into intervals of 0.25g
+table(cut(nail_frame$nail_weights, breaks = seq(7.995, max(nail_frame$nail_weights), 0.25)))
+
 # Division of data into intervals of 10 feet
 breaks <- seq(340, 460, 10)
 table(cut(run_frame$runs, breaks))

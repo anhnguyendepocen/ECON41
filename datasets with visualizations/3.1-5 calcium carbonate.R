@@ -15,7 +15,7 @@ carbon_frame %>% summarise(range = range(concentration)[2] - range(concentration
                            variance = var(concentration))
 
 # Frequency histogram of calcium carbonate data
-carbon_frame %>% ggplot(aes(concentration)) + geom_histogram(color = 'black', fill = 'blue') + ds_theme_set()
+carbon_frame %>% ggplot(aes(concentration)) + geom_histogram(binwidth = 1, color = 'black', fill = 'blue') + ds_theme_set() + scale_x_continuous(breaks = seq(min(carbon_frame$concentration), max(carbon_frame$concentration), 1)) + scale_y_continuous(breaks = seq(0, 7, 1)) + labs(x = 'Concentration', y = 'Frequency')
 
 # Box plot of calcium carbonate data
 carbon_frame %>% ggplot(aes(y = concentration)) + geom_boxplot(fill = 'green') + ds_theme_set() + theme(axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank()) + labs(y = 'Concentration (mg/L)') + scale_y_continuous(breaks = seq(127, 135, 1))

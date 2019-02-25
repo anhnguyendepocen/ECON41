@@ -12,6 +12,9 @@ nails <- c(9.42, 9.41, 8.29, 8.58, 9.20,
 
 nail_frame <- data.frame(nail_weights = nails)
 
+# Summary statistics for nail weights
+nail_frame %>% summarize(mean = mean(nail_weights), sd = sd(nail_weights))
+
 # Frequency histogram of nail weights 
 nail_frame %>% ggplot(aes(nail_weights)) + geom_histogram(color = 'black', fill = 'blue', bins = 7) + scale_x_continuous(breaks = seq(min(nail_frame$nail_weights), max(nail_frame$nail_weights) + 0.25, 0.25)) + labs(x = 'Nail weights', y = 'Frequency')
 
