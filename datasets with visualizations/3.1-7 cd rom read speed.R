@@ -18,5 +18,8 @@ cd_speeds %>% summarise(range = range(speed)[2] - range(speed)[1],
                            median = median(speed), 
                            variance = var(speed))
 
+# Frequency histogram of CD ROM read speed data
+cd_speeds %>% ggplot(aes(speed)) + geom_histogram(fill = 'blue', color = 'black', bins= 10) + ds_theme_set() + scale_y_continuous(breaks = seq(0, 10, 1)) + scale_x_continuous(breaks = seq(0, 31, 5)) + labs(x = 'Read speed (kb/s)', y = 'Frequency')
+
 # Box plot of CD ROM read speed data
-cd_speeds %>% ggplot(aes(y = speed)) + geom_boxplot(fill = 'green') + ds_theme_set() + theme(axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank()) + labs(y = 'Speed') + scale_y_continuous(breaks = seq(min(cd_speeds$speed), max(cd_speeds$speed), 0.1))
+cd_speeds %>% ggplot(aes(y = speed)) + geom_boxplot(fill = 'green') + ds_theme_set() + theme(axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank()) + labs(y = 'Read speed (kb/s)') + scale_y_continuous(breaks = seq(0, 30, 5), limits = c(0, 30))

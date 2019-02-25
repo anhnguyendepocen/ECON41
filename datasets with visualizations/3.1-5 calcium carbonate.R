@@ -19,3 +19,6 @@ carbon_frame %>% ggplot(aes(concentration)) + geom_histogram(binwidth = 1, color
 
 # Box plot of calcium carbonate data
 carbon_frame %>% ggplot(aes(y = concentration)) + geom_boxplot(fill = 'green') + ds_theme_set() + theme(axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank()) + labs(y = 'Concentration (mg/L)') + scale_y_continuous(breaks = seq(127, 135, 1))
+
+
+
