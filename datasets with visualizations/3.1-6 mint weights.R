@@ -17,3 +17,4 @@ mint_frame %>% ggplot(aes(weight)) + geom_histogram(binwidth = 0.1, color = 'bla
 
 # Box plot of mint weight data
 mint_frame %>% ggplot(aes(y = weight)) + geom_boxplot(fill = 'Green') + ds_theme_set() + theme(axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank()) + labs(y = 'Weight (g)') + scale_y_continuous(breaks = seq(min(mint_frame$weight), max(mint_frame$weight), 0.1))
+
