@@ -12,7 +12,7 @@ home_runs <- c(382, 340, 418, 390, 393, 380,
 run_frame <- data.frame(runs = home_runs)
 
 # Division of data into intervals of 10 feet
-breaks <- seq(390, 460, 10)
+breaks <- seq(340, 460, 10)
 table(cut(run_frame$runs, breaks))
 
 # Mean and variance of home run distances
