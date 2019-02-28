@@ -1,3 +1,8 @@
+# Generates relative frequency histograms of randomly generated data that is normally distributed
+# n is the number of random numbers to generate
+# bins is the number of bars in the histogram to be drawn
+# mean is the mean of the data to be generated
+# sd is the standard deviation of the data to be generated
 normal <- function(n, bins, mean, sd){
   library(tidyverse)
   library(dslabs)
