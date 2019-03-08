@@ -40,7 +40,7 @@ clt_plot_pois <- function(n, trials, lambda){
 }
 
 # Plot grid for uniform distribution
-clt_plot_unif <- function(a, b){
+clt_plot_unif <- function(a, b, n, trials){
   if(a >= b) stop('Please make sure a < b')
   dat <- data.frame(x = seq(a, b, 1), prob = dunif(x, a, b))
   mean_data <- as.numeric(replicate(trials, mean(sample(dat$x, n, replace = TRUE, prob = dat$prob))))
