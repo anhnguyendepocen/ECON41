@@ -1,5 +1,5 @@
 # Adapted from https://github.com/leonjessen/confidence_intervals_visualised
-func <- function(n){
+ci_generator <- function(n){
   mk_samples <- function(n, size, mean = 0, sd = 1){
     m <- sapply(1:n, function(i){
       s <- rnorm(n = size, mean = mean, sd = sd)
@@ -14,9 +14,9 @@ func <- function(n){
     mutate(contains_pop_mean = ifelse(0 > ci_lower & 0 < ci_upper,'yes','no') %>%
              factor(levels = c('yes', 'no')))
   m %>%
-    ggplot(aes(x=sample_mean,y=i,colour=contains_pop_mean)) +
+    ggplot(aes(x = sample_mean, y = i,color = contains_pop_mean)) +
     geom_point() +
-    geom_errorbarh(aes(xmin=ci_lower,xmax=ci_upper),height=1) +
+    geom_errorbarh(aes(xmin = ci_lower, xmax = ci_upper), height = 1) +
     geom_vline(xintercept = 0, linetype = 'dashed') +
     scale_y_continuous(expand = c(0, 0)) +
     scale_color_manual(values=c('darkgrey','red')) +
