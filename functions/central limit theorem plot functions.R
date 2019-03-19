@@ -40,9 +40,8 @@ clt_plot_pois <- function(n, trials, lambda){
 }
 
 # Plot grid for uniform distribution
-clt_plot_unif <- function(a, b, n, trials){
-  if(a >= b) stop('Please make sure a < b')
-  dat <- data.frame(x = seq(a, b, 1), prob = dunif(x, a, b))
+clt_plot_unif <- function(n, trials){
+  dat <- data.frame(x = seq(0, 10, 1), prob = dunif(n, 0, 10))
   mean_data <- as.numeric(replicate(trials, mean(sample(dat$x, n, replace = TRUE, prob = dat$prob))))
   mean_frame <- data.frame(x = length(0:(length(mean_data) - 1)), samp = mean_data)
   sampling_dist <- as.data.frame(scale(mean_frame)) %>% ggplot(aes(samp, stat(count / sum(count)))) + geom_histogram(color = 'black', fill = 'blue', bins = 10) + labs(x = 'Number of standard deviations', y = 'Proportion', title = 'Sampling distribution') + geom_vline(xintercept = 0, color = 'red', linetype = 'dashed', size = 1) + ds_theme_set()  
