@@ -41,6 +41,9 @@ clt_plot_pois <- function(n, trials, lambda){
 
 # Plot grid for uniform distribution
 clt_plot_unif <- function(n, trials){
+  library(tidyverse)
+  library(dslabs)
+  library(ggpubr)
   dat <- data.frame(x = seq(0, 10, 1), prob = dunif(n, 0, 10))
   mean_data <- as.numeric(replicate(trials, mean(sample(dat$x, n, replace = TRUE, prob = dat$prob))))
   mean_frame <- data.frame(x = length(0:(length(mean_data) - 1)), samp = mean_data)
