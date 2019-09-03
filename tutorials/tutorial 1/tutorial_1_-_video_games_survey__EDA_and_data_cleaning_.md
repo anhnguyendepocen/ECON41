@@ -271,7 +271,7 @@ video %>% filter(like != c('No response', 'Never played')) %>% ggplot() +
         axis.title.x = element_blank())
 ```
 
-![](tutorial_1_-_video_games_survey__EDA_and_data_cleaning__files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-11-1.png?raw=true)<!-- -->
 
 Notice that we were able to filter out multiple levels for the factor
 variable `like` that we did *not* want in our plot by putting them into
@@ -416,7 +416,7 @@ video %>% ggplot() +
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](tutorial_1_-_video_games_survey__EDA_and_data_cleaning__files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-17-1.png?raw=true)<!-- -->
 
 The plot above is a good start, but it has some problems. It’s a bit
 hard to read, for one thing. And do we really need so many bins? There
@@ -602,7 +602,7 @@ video %>% ggplot() +
         axis.title.x = element_blank())
 ```
 
-![](tutorial_1_-_video_games_survey__EDA_and_data_cleaning__files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-18-1.png?raw=true)<!-- -->
 
 The above histogram looks great. Now we have 10 clearly labelled bins.
 However, there are still a couple of problems: one of the bins is
@@ -708,7 +708,7 @@ video %>% ggplot() +
         axis.title.x = element_blank())
 ```
 
-![](tutorial_1_-_video_games_survey__EDA_and_data_cleaning__files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-26-1.png?raw=true)<!-- -->
 
 #### More resources
 
