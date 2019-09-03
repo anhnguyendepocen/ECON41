@@ -201,7 +201,7 @@ video %>% ggplot() +
                                    hjust = 1))
 ```
 
-![](tutorial_1_-_video_games_survey__EDA_and_data_cleaning__files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-8-1.png?raw=true)<!-- -->
 
 The plot above looks similar to our first plot, but it’s more colorful
 because the bars are broken into pieces whose sizes depend on the number
@@ -226,7 +226,7 @@ video %>% ggplot() +
                                    hjust = 1))
 ```
 
-![](tutorial_1_-_video_games_survey__EDA_and_data_cleaning__files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-9-1.png?raw=true)<!-- -->
 
 The plot above is called a **stacked bar plot**. Instead of plotting the
 frequency at which males and females responded to a certain question in
