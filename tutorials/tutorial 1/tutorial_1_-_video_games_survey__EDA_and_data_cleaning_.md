@@ -449,7 +449,7 @@ plot2 <- video %>% ggplot() +
 ggarrange(plot1, plot2)
 ```
 
-![](tutorial_1_-_video_games_survey__EDA_and_data_cleaning__files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-18-1.png?raw=true)<!-- -->
 
 The red histogram on the left has a `binwidth` value of `10` and the
 blue histogram on the left has a `bins` value of `10`. If you look very
@@ -602,7 +602,7 @@ video %>% ggplot() +
         axis.title.x = element_blank())
 ```
 
-![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-18-1.png?raw=true)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-23-1.png?raw=true)<!-- -->
 
 The above histogram looks great. Now we have 10 clearly labelled bins.
 However, there are still a couple of problems: one of the bins is
