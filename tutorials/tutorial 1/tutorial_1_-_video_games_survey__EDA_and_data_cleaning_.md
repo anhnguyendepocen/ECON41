@@ -180,7 +180,7 @@ video %>% ggplot() +
         axis.title.x = element_blank())
 ```
 
-![](tutorial_1_-_video_games_survey__EDA_and_data_cleaning__files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201/unnamed-chunk-7-1.png)<!-- -->
 
 The above plot looks nice, but it does not tell us anything that
 `summary()` cannot tell us about `like`.
