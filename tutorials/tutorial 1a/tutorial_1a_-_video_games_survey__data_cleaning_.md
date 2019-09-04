@@ -60,6 +60,8 @@ With so many different types of data out there and so many different
 functions for reading them into R, how do we know we’re supposed to
 `read.table()` for our data?
 
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201a/Screen%20Shot%202019-09-04%20at%209.49.16%20AM.png?raw=true)<!-- -->
+
 First, we should download the file to our computer and have a look at it
 using a program like Notepad (on Windows) or TextEditor (on Mac). How
 are the values of the variables separated? There are many kinds of
