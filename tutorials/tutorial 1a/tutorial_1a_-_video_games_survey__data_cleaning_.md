@@ -157,6 +157,8 @@ practice.
 
 <https://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html>
 
+<https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201a/For%20Big-Data%20Scientists%2C%20%E2%80%98Janitor%20Work%E2%80%99%20Is%20Key%20Hurdle%20to%20Insights%20-%20The%20New%20York%20Times.pdf>
+
 ### Cleaning our data
 
 To clean up this dataset, first we need to review using the codebook
@@ -292,6 +294,8 @@ in order to analyze it as part of a lab assignment for this
 class.
 
 <https://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html>
+
+<https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%201a/For%20Big-Data%20Scientists%2C%20%E2%80%98Janitor%20Work%E2%80%99%20Is%20Key%20Hurdle%20to%20Insights%20-%20The%20New%20York%20Times.pdf>
 
 <https://www.datacamp.com/community/tutorials/r-data-import-tutorial>
 
