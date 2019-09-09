@@ -29,7 +29,7 @@ that are heads converges towards the probability that a single flip of a
 fair coin will land on
 heads.
 
-![](tutorial_2_-_probability_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%202/unnamed-chunk-3-1.png?raw=true)<!-- -->
 
 Now is a good time to introduce a couple of functions that are very
 valuable for running simulations like this.
@@ -547,7 +547,7 @@ tidy_flips %>% ggplot(aes(x = trial, fill = heads)) +
        y = 'Frequency')
 ```
 
-![](tutorial_2_-_probability_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%202/unnamed-chunk-23-1.png?raw=true)<!-- -->
 
 The graph above is an example of a **grouped bar plot**. Each pair of
 bars for each flip represents the number of heads and tails for each
@@ -564,7 +564,7 @@ tidy_flips %>% ggplot(aes(x = trial, fill = heads)) +
        title = 'Results of 8 trials of 10 flips of a fair coin')
 ```
 
-![](tutorial_2_-_probability_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%202/unnamed-chunk-24-1.png?raw=true)<!-- -->
 
 The above plot is of a familiar type and it is much easier to read.
 
@@ -579,7 +579,7 @@ track the proportion of times a flipped coin lands on heads in more and
 more
 trials.
 
-![](tutorial_2_-_probability_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%202/unnamed-chunk-25-1.png?raw=true)<!-- -->
 
 How can we show something like this ourselves for some other event? This
 will require functional programming. We’re going to do this for the
@@ -721,7 +721,7 @@ df %>% ggplot(aes(x = n, y = prop)) +
   ylim(0, 1)
 ```
 
-![](tutorial_2_-_probability_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%202/unnamed-chunk-29-1.png?raw=true)<!-- -->
 
 So far, so good. The last thing for us to do is take the function we
 wrote and the cleaning code, and put this stuff together with the plot
@@ -765,7 +765,7 @@ set.seed(1)
 ggarrange(flip_heads(5), flip_heads(10), flip_heads(100), flip_heads(1000))
 ```
 
-![](tutorial_2_-_probability_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%202/unnamed-chunk-30-1.png?raw=true)<!-- -->
 
 Great\! Notice the position of the horizontal dashed line in each plot.
 It’s drawn at y = 0.7 because 0.7 is the probability of flipping heads
