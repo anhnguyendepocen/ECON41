@@ -526,7 +526,7 @@ work truly meaningful since we’re so great at creating slick
 visualizations
 now.
 
-![](tutorial_3_-_conditional_probability_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%203/unnamed-chunk-19-1.png?raw=true)<!-- -->
 
 We can definitely reproduce the plot above\! But it will take some
 research and experimentation…
