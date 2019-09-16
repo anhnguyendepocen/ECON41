@@ -92,7 +92,7 @@ observation represents one email message.
 There are 49 variables in this dataset. The first 48 variables represent
 whether or not a word was present in a message. For example, if the
 value for `will` is `TRUE` for an observation, this means that the word
-“true” was present in this email message. If the value for `business`
+“will” was present in this email message. If the value for `business`
 is `FALSE` for an observation, this means that the word “business” was
 not present in that email message.
 
