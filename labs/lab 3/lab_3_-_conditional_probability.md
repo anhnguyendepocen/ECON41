@@ -48,4 +48,4 @@ reproduce as best you can the visualization below.**
     reproduce every detail of this plot if you are persistent
 enough.
 
-![](lab_3_-_conditional_probability_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/labs/lab%203/unnamed-chunk-1-1.png?raw=true)<!-- -->
