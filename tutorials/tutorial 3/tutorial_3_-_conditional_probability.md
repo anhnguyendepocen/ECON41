@@ -498,7 +498,7 @@ we’ve learned how to use in previous labs and tutorials.
 
 Suppose we wanted to calculate the probability that a message is spam
 given it contains each of the words in our dataset. We could run
-`p_spam_given_word()` 48 more times, once for each word in our dataset,
+`p_spam_given_word()` 47 more times, once for each word in our dataset,
 and that would give us each of the individual probabilities that we
 need, and that should only require one or two lines of code if we really
 know what we’re doing.
