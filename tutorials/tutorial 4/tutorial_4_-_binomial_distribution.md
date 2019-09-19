@@ -63,7 +63,7 @@ binomial_data %>% ggplot() +
        title = '1000 samples of b(100, 0.3)')
 ```
 
-![](tutorial_4_-_binomial_distribution_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%204/unnamed-chunk-3-1.png?raw=true)<!-- -->
 
 The binomial distribution is approximately normal. Notice also that it’s
 centered at the average of our distribution, np = 30. This is marked
@@ -95,7 +95,7 @@ binomial_data %>% ggplot() +
        title = '1000 samples of b(100, 0.3)')
 ```
 
-![](tutorial_4_-_binomial_distribution_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%204/unnamed-chunk-5-1.png?raw=true)<!-- -->
 
 The plot above should make the probability we just calculated using
 `dbinom()` a bit clearer. Basically, this probability is given by the
@@ -153,7 +153,7 @@ binomial_data %>% ggplot() +
        title = '1000 samples of b(100, 0.3)')
 ```
 
-![](tutorial_4_-_binomial_distribution_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%204/unnamed-chunk-8-1.png?raw=true)<!-- -->
 
 As we did with the `dbinom()` function, we’ll compare our theoretical
 and empirical cumulative probabilities. Once again, they’re close but
@@ -215,7 +215,7 @@ binomial_data %>% ggplot() +
        title = '1000 samples of b(100, 0.3)')
 ```
 
-![](tutorial_4_-_binomial_distribution_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%204/unnamed-chunk-10-1.png?raw=true)<!-- -->
 
 Here is something that is worth emphasizing: the value of `lower.tail`
 not only controls whether you are performing an left or right tailed
@@ -296,7 +296,7 @@ overbook_risks %>% ggplot() +
                      limits = c(0, 1))
 ```
 
-![](tutorial_4_-_binomial_distribution_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%204/unnamed-chunk-12-1.png?raw=true)<!-- -->
 
 Judging from the plot above, it looks like the number of seats sold with
 the highest acceptable risk is 108.
