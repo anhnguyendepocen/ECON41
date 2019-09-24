@@ -180,7 +180,7 @@ was 121 / 200 = 0.61, which means that `lambda = 0.61`. The data from
 his study is shown
     below.
 
-    ##   num_deaths observed_deaths theoretical_probability expected_deaths
+    ##   num_deaths        observed     poisson_probability        expected
     ## 1          0             109                   0.543           108.7
     ## 2          1              65                   0.331            66.3
     ## 3          2              22                   0.101            20.2
