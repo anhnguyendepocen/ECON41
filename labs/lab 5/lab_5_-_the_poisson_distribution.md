@@ -64,4 +64,4 @@ Prussian cavalry soldiers studied by Ladislaus Bortkiewicz.
     ##    0  250  500  750 1000 1250 1500 
     ## 5412 3262 1075  210   37    3    1
 
-![](lab_5_-_the_poisson_distribution_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/labs/lab%205/unnamed-chunk-3-1.png?raw=true)<!-- -->
