@@ -188,26 +188,10 @@ his study is shown
     ## 5          4               1                   0.003             0.6
     ## 6         5+               0                   0.000             0.0
 
-The first column of the table, `num_deaths`, gives values for the number
-of horse kick deaths per corps year. This means that for 109 corps
-years, there were no horse kick deaths. `theoretical_probabilty` tells
-us the theoretical probability of such an event according to the Poisson
-distribution. Death by horse kick is pretty rare even among people who
-spend lots of time around horses (like 19th century Prussian cavalry
-soldiers for instance), so the Poisson distribution predicts that most
-of the time this won’t happen, which is why 0 deaths has the highest
-theoretical probability of all the events.
+The first column of the table, `num_deaths`, gives values for the number of horse kick deaths per corps year. This means that for 109 corps years, there were no horse kick deaths. `poisson_probabilty` tells us the theoretical probability of such an event according to the Poisson distribution. Death by horse kick is pretty rare even among people who spend lots of time around horses (like 19th century Prussian cavalry soldiers for instance), so the Poisson distribution predicts that most of the time this won’t happen, which is why 0 deaths has the highest Poisson probability of all the events.
 
-The `expected_deaths` column tells us the total number of deaths in 200
-corps years that the Poisson distribution predicts when `lambda = 0.61`.
-It is given by multiplying the theoretical probability of each number of
-deaths per corp year by 200, the total number of corps years. For
-example, the Poisson distribution predicts that there will be 0 deaths
-in 108.7 of 200 corps years. Notice how this number of total expected
-deaths for all corps years, along with all the other estimations, is
-very close to what was actually observed. This is why Bortkiewicz
-believed that deaths by horse kick among the Prussian cavalry soldiers
-he studied followed a Poisson distribution.
+The `expected` column tells us the total number of deaths in 200 corps years that the Poisson distribution predicts when `lambda = 0.61`. It is given by multiplying the theoretical probability of each number of deaths per corp year by 200, the total number of corps years. For example, the Poisson distribution predicts that there will be 0 deaths in 108.7 of 200 corps years. Notice how this number of total expected deaths for all corps years, along with all the other estimations, is very close to what was actually observed. This is why Bortkiewicz believed that deaths by horse kick among the Prussian cavalry soldiers he studied followed a Poisson distribution.
+
 
 ### Simulating costs of car accidents
 
