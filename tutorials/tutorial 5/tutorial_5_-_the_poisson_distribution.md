@@ -53,7 +53,7 @@ poisson_data %>% ggplot() +
        title = '1,000 samples of Pois(lambda = 10)')
 ```
 
-![](tutorial_5_-_the_poisson_distribution_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%205/unnamed-chunk-3-1.png?raw=true)<!-- -->
 
 `dpois()` and `ppois()` work the same way as their counterparts from the
 binomial distribution. We’ll see them in action in the following
@@ -105,7 +105,7 @@ babies %>% ggplot() +
   theme_bw()
 ```
 
-![](tutorial_5_-_the_poisson_distribution_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%205/unnamed-chunk-5-1.png?raw=true)<!-- -->
 
 ``` r
 babies %>% summarize(six_babies = sum(babies$data == 6) / n())
@@ -145,7 +145,7 @@ babies %>% ggplot() +
   theme_bw()
 ```
 
-![](tutorial_5_-_the_poisson_distribution_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%205/unnamed-chunk-7-1.png?raw=true)<!-- -->
 
 ``` r
 babies %>% summarize(six_babies = sum(babies$data > 6) / n())
@@ -299,7 +299,7 @@ cost_sim %>% ggplot() +
   theme_bw()
 ```
 
-![](tutorial_5_-_the_poisson_distribution_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%205/unnamed-chunk-12-1.png?raw=true)<!-- -->
 
 ``` r
 mean(cost_sim$data)
@@ -543,4 +543,4 @@ bombing_sim %>% ggplot() +
   theme_bw()
 ```
 
-![](tutorial_5_-_the_poisson_distribution_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%205/unnamed-chunk-19-1.png?raw=true)<!-- -->
