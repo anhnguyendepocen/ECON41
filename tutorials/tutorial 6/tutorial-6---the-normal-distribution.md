@@ -32,7 +32,7 @@ data.frame(x = c(-3.5, 3.5)) %>% ggplot(aes(x)) +
   scale_x_continuous(breaks = seq(-3, 3))
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-2-1.png?raw=true)<!-- -->
 
 Notice that in the plot above in order to draw the curve we had to use a
 function called `stat_function()`.
