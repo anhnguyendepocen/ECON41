@@ -68,7 +68,7 @@ should look like the printout below.
     support your
 explanation.
 
-![](lab-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/labs/lab%206/unnamed-chunk-3-1.png?raw=true)<!-- -->
 
 Extra credit: What was your birth weight in ounces? Use this information
 to report your birth weight percentile.
