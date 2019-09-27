@@ -81,7 +81,7 @@ data.frame(x = c(-3.5, 3.5)) %>% ggplot(aes(x)) +
   scale_x_continuous(breaks = seq(-3, 3))
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-3-1.png?raw=true)<!-- -->
 
 We can also calculate the probability that X takes some value within a
 certain interval. For example, let’s calculate P(-2 \<= X \<= 1) and
@@ -112,7 +112,7 @@ data.frame(x = c(-3.5, 3.5)) %>% ggplot(aes(x)) +
   scale_x_continuous(breaks = seq(-3, 3))
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-4-1.png?raw=true)<!-- -->
 
 The purpose of `rnorm()` should be obvious. It works the same way as
 other functions we’ve used to randomly generate numbers which follow a
@@ -133,7 +133,7 @@ df %>% ggplot(aes(sample = data)) +
   theme_bw()
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-5-1.png?raw=true)<!-- -->
 
 The qq plot is used to assess the normality of a distribution of sample
 data. The better the data points fit the qq line, the more normal the
@@ -211,7 +211,7 @@ dens <- heights %>% ggplot() +
 ggarrange(hist, dens, nrow = 2)
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-7-1.png?raw=true)<!-- -->
 
 The last two distributions we worked with were the binomial and Poisson
 distributions, which are discrete distributions. To plot these
@@ -255,7 +255,7 @@ heights %>% ggplot() +
   theme_bw()
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-8-1.png?raw=true)<!-- -->
 
 Now let’s try to use this information to answer a somewhat interesting
 question. What is the probability that a randomly selected woman in this
@@ -314,7 +314,7 @@ hist.y %>% ggplot(aes(x = x, ymin = 0, ymax = y, fill = area)) +
   theme_bw()
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-10-1.png?raw=true)<!-- -->
 
 One thing that you may have been thinking throughout this part of the
 tutorial is that the density plot for female heights looks like the
@@ -355,7 +355,7 @@ f_qq <- female_heights %>% ggplot(aes(sample = scale(height))) +
 ggarrange(f_dens, f_qq, nrow = 2)
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-11-1.png?raw=true)<!-- -->
 
 Before we move on to the next example, it’s important to point out an
 important implication of the above findings: since this data is normally
@@ -392,7 +392,7 @@ f_dens + geom_vline(xintercept = mean(male_heights$height),
                     color = 'turquoise')
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-12-1.png?raw=true)<!-- -->
 
 These values are somewhat close, but random variation in the sample
 keeps them somewhat far apart too. Notice how the areas under the
@@ -450,7 +450,7 @@ baby_data %>% ggplot(aes(data)) +
   theme_bw()
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-13-1.png?raw=true)<!-- -->
 
 This returns a value of about 87.1 ounces. The shaded area under the
 curve above represents the population of babies that are of low birth
@@ -581,7 +581,7 @@ jill_not_scaled <- data.frame(x = c(-3.5 * 100 + 500, 3.5 * 100 + 500)) %>% ggpl
 ggarrange(jill_scaled, jill_not_scaled)
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-17-1.png?raw=true)<!-- -->
 
 In order for Jack to do equally well on the ACT, he needs to score in
 the same percentile for that test. What score does this correspond to
@@ -639,4 +639,4 @@ jack_not_scaled <- data.frame(x = c(-3.5 * 6 + 18, 3.5 * 6 + 18)) %>% ggplot(aes
 ggarrange(jack_scaled, jack_not_scaled)
 ```
 
-![](tutorial-6---the-normal-distribution_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%206/unnamed-chunk-19-1.png?raw=true)<!-- -->
