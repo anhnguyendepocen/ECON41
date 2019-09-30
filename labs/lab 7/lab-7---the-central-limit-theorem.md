@@ -58,7 +58,7 @@ preview of the data is shown below.
     below. **But make sure you put the correct value for `lambda` in the
     subtitle.**
 
-![](lab-7---the-central-limit-theorem_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/labs/lab%207/unnamed-chunk-4-1.png?raw=true)<!-- -->
 
 5.  Suppose that the year is now 2011 and you read in the newspaper that
     the FBI predicts that for this year, the firearm murder rate will be
