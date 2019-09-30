@@ -71,7 +71,7 @@ clt_plot_exp <- function(n, trials){
 clt_plot_exp(100, 1000)
 ```
 
-![](tutoriall-7---the-central-limit-theorem_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%207/unnamed-chunk-2-1.png?raw=true)<!-- -->
 
 Notice how different the shapes of the plots which relate to individual
 observations are from the ones that relate to samples which are drawn
@@ -127,7 +127,7 @@ clt_plot_unif <- function(n, trials){
 clt_plot_unif(10, 1000)
 ```
 
-![](tutoriall-7---the-central-limit-theorem_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%207/unnamed-chunk-3-1.png?raw=true)<!-- -->
 
 Once again, because of the central limit theorem, we see that a random
 variable whose individual observations clearly do not follow a normal
@@ -277,7 +277,7 @@ jury_sim_plot <- jury_sim_dat %>% ggplot() +
 jury_sim_plot
 ```
 
-![](tutoriall-7---the-central-limit-theorem_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%207/unnamed-chunk-6-1.png?raw=true)<!-- -->
 
 The first thing we should notice about our data is that it is normally
 distributed. This is something that should not surprise us given our
@@ -397,7 +397,7 @@ data.frame(x = c(0, 50)) %>% ggplot(aes(x)) +
     scale_x_continuous(breaks = c(8, seq(10, 50, 10)))
 ```
 
-![](tutoriall-7---the-central-limit-theorem_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%207/unnamed-chunk-9-1.png?raw=true)<!-- -->
 
 The last way we could test this hypothesis is through a process called
 bootstrapping, which we already did at the very beginning. Bootstrapping
@@ -422,7 +422,7 @@ jury_sim_dat %>% summarize(eight_or_less_prop = sum(boot_prop <= 8) / n())
 jury_sim_plot
 ```
 
-![](tutoriall-7---the-central-limit-theorem_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%207/unnamed-chunk-10-1.png?raw=true)<!-- -->
 
 Have we shown that the Supreme Court of the United States committed a
 grave error in its decision? Not necessarily. But we have shown that
