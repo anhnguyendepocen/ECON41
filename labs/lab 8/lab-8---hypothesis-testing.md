@@ -54,7 +54,7 @@ exists, likely transcends cultures.
     each
 histogram.**
 
-![](lab-8---hypothesis-testing_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/labs/lab%208/unnamed-chunk-2-1.png?raw=true)<!-- -->
 
 4.  What are the average final math grades for single and attached
     students? Report them on a single line by placing them inside of a
