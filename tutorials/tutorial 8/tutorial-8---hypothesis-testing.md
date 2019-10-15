@@ -44,7 +44,7 @@ data.frame(x = seq(-3, 3, 0.01),
   theme_bw()
 ```
 
-![](tutorial-8---hypothesis-testing_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%208/unnamed-chunk-2-1.png?raw=true)<!-- -->
 
 We use the t distribution when we don’t know the population level
 standard deviation of a variable that we’re studying. The test statistic
@@ -154,7 +154,7 @@ data.frame(x = seq(-3.5, 3.5, 0.01),
   annotate(geom = 'text', x = -2.15, y = 0.015, label = '0.05', size = 6, color = 'red')
 ```
 
-![](tutorial-8---hypothesis-testing_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%208/unnamed-chunk-6-1.png?raw=true)<!-- -->
 
 Notice that our test statistic lies well within the rejection region. We
 can extract the corresponding p value from another run of `t.test()`.
@@ -303,7 +303,7 @@ g3_plot <- math_data %>% ggplot() +
 ggarrange(g1_plot, g2_plot, g3_plot, ncol = 3)
 ```
 
-![](tutorial-8---hypothesis-testing_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%208/unnamed-chunk-10-1.png?raw=true)<!-- -->
 
 Look closely at the left sides of the histograms. As the school year
 went on, it appears that the number of students with a score of 0 for
@@ -345,7 +345,7 @@ math_filtered %>% ggplot() +
   theme_bw()
 ```
 
-![](tutorial-8---hypothesis-testing_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%208/unnamed-chunk-12-1.png?raw=true)<!-- -->
 
 It appears that final math course grades follow an approximately normal
 distribution.
@@ -452,7 +452,7 @@ sober_scores <- math_filtered %>% filter(Walc == 1) %>% ggplot() +
 ggarrange(drinker_scores, sober_scores)
 ```
 
-![](tutorial-8---hypothesis-testing_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%208/unnamed-chunk-15-1.png?raw=true)<!-- -->
 
 Both subsets of our filtered sample are approximately normally
 distributed. Notice that about 2/3 of students from the filtered sample
@@ -571,7 +571,7 @@ p_vals %>% ggplot() +
   theme_bw()
 ```
 
-![](tutorial-8---hypothesis-testing_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%208/unnamed-chunk-19-1.png?raw=true)<!-- -->
 
 The plot above shows how the p value of the difference in means test
 that we just performed increases as the estimated difference in means
@@ -616,7 +616,7 @@ math_filtered %>% ggplot() +
   theme_bw()
 ```
 
-![](tutorial-8---hypothesis-testing_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%208/unnamed-chunk-21-1.png?raw=true)<!-- -->
 
 This is a pretty surprising result, at least to me. Classes like this
 are very popular in mainland China and supplementary education for
@@ -670,7 +670,7 @@ no_classes <- math_filtered %>% filter(paid == 'no') %>% ggplot() +
 ggarrange(more_classes, no_classes)
 ```
 
-![](tutorial-8---hypothesis-testing_files/figure-gfm/unnamed-chunk-22-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%208/unnamed-chunk-22-1.png?raw=true)<!-- -->
 
 Both samples are approximately normally distributed. How do the means of
 these samples compare?
