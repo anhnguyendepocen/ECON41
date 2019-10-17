@@ -16,7 +16,7 @@ available upon request, but I’ve decided not to include it here because
 it is quite complicated and a bit of a
 distraction.)
 
-![](tutorial-9---confidence-intervals_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%209/unnamed-chunk-2-1.png?raw=true)<!-- -->
 
 Now we are going to start generating our own confidence intervals. The
 first way we’re going to produce a confidence interval in R is by
@@ -234,7 +234,7 @@ as.data.frame(housing_summary) %>% ggplot() +
   theme_bw()
 ```
 
-![](tutorial-9---confidence-intervals_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%209/unnamed-chunk-10-1.png?raw=true)<!-- -->
 
 The plot above shows us how the average unit area price in our sample
 changed from 2012 to 2013. The dashed lines represent the upper and
@@ -379,7 +379,7 @@ ggplot() +
   theme_bw()
 ```
 
-![](tutorial-9---confidence-intervals_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%209/unnamed-chunk-15-1.png?raw=true)<!-- -->
 
 Although there is more uncertainty about average monthly deaths from
 these diseases among men over this period, there is an obvious
@@ -395,7 +395,7 @@ causes emphysema, which is one of the diseases covered by the
 `UKLungDeaths`
 dataset.
 
-![](tutorial-9---confidence-intervals_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%209/unnamed-chunk-16-1.png?raw=true)<!-- -->
 
 We can see from the plot above that during three two year periods which
 span most of the period shown above in our confidence interval plot, men
@@ -531,7 +531,7 @@ as.data.frame(air_summary) %>% ggplot() +
         axis.title.x = element_blank())
 ```
 
-![](tutorial-9---confidence-intervals_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/tutorials/tutorial%209/unnamed-chunk-20-1.png?raw=true)<!-- -->
 
 Notice that the lines which represent the upper and lower limits of the
 95% confidence interval fit the line which represents the monthly
