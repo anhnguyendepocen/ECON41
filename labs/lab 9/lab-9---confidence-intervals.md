@@ -106,7 +106,7 @@ like the printout
     like the one
 below.
 
-![](lab-9---confidence-intervals_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](https://github.com/ghbutler/ECON41/blob/master/labs/lab%209/unnamed-chunk-5-1.png?raw=true)<!-- -->
 
 8.  What do you think explains the apparent explosion in uncertainty
     towards the end of the timeframe considered in the figure above?
